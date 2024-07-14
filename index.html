@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This card is Designed with an intention to Practice Css Basics">
+    <title>Milky Way Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 250px;
+            height: 470px;
+            border: 2px solid black;
+            border-radius: 15px;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            box-shadow:0px 0px 10px 5px skyblue;
+        }
+
+        .container>img {
+            width: 240px;
+            height: 200px;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            border-radius: 15px;
+        }
+
+        .caption {
+            position: absolute;
+            display: inline-block;
+            top: 210px;
+        }
+
+        .Night {
+            width: 65px;
+            height: 25px;
+            border: 2px solid black;
+            border-radius: 30px;
+            position: absolute;
+            margin-top: 7px;
+            top: 210px;
+            left: 20px;
+            background-color:rgb(1, 191, 255);
+            color:rgb(250, 250, 250);
+        }
+        .Night:hover{
+            background-color:rgb(121, 210, 239);
+        }
+
+        .Night>p {
+            padding-left: 13px;
+            padding-top: 3px;
+        }
+
+        .Stars {
+            width: 65px;
+            height: 25px;
+            border: 2px solid black;
+            margin-top: 7px;
+            border-radius: 30px;
+            position: absolute;
+            top: 210px;
+            left: 100px;
+            background-color:rgb(1, 191, 255);
+            color:rgb(250, 250, 250);
+        }
+        .Stars:hover{
+            background-color:rgb(121, 210, 239);
+        }
+
+        .Stars>p {
+            padding-left: 13px;
+            padding-top: 3px;
+        }
+
+        h1 {
+            position: absolute;
+            top: 260px;
+            left: 10px;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                sans-serif;
+        }
+        .desc{
+                width:230px;
+                height:110px;
+                position:absolute;
+                top:310px;
+                left:10px;
+                overflow:auto;
+        }
+        .submit{
+            width: 65px;
+            height: 25px;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: absolute;
+            margin-top: 7px;
+            top: 425px;
+            left:85px;
+            background-color:rgb(1, 191, 255);
+            color:rgb(250, 250, 250);
+        }
+        .submit:hover{
+            background-color:rgb(121, 210, 239);
+        }
+        .submit>p{
+            padding-left: 8px;
+            padding-top: 2px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="sky.jpg" alt="Sky" width="240px" />
+        <div class="Night">
+            <p>Night</p>
+        </div>
+        <div class="Stars">
+            <p>Stars</p>
+        </div>
+        <h1>Milky Way</h1>
+        <div class="desc">
+            <p>The Milky Way is a huge collection of stars, dust and gas. It's called a spiral galaxy because if you could view it from the top or bottom, it would look like a spinning pinwheel. The Sun is located on one of the spiral arms, about 25,000 light-years away from the center of the galaxy.</p>
+        </div>
+        <div class="submit">
+            <p>Submit</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
